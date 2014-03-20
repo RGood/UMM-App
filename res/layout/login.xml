@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+	android:background="#00FF00">
+
+      <Button
+          android:id="@+id/button3"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentBottom="true"
+          android:layout_alignParentLeft="true"
+          android:layout_alignParentRight="true"
+          android:layout_marginBottom="36dp"
+          android:background="#FFFFFF"
+          android:text="Button" />
+
+      <Button
+          android:id="@+id/button2"
+          android:layout_width="140dp"
+          android:layout_height="80dp"
+          android:layout_above="@+id/button3"
+          android:layout_alignParentLeft="true"
+          android:layout_marginBottom="86dp"
+          android:background="#FFFFFF"
+          android:text="Button" />
+
+      <Button
+          android:id="@+id/button1"
+          android:layout_width="140dp"
+          android:layout_height="80dp"
+          android:layout_alignBaseline="@+id/button2"
+          android:layout_alignBottom="@+id/button2"
+          android:layout_alignParentRight="true"
+          android:background="#FFFFFF"
+          android:text="Button" />
+
+      <ImageView
+          android:id="@+id/imageView1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_above="@+id/button1"
+          android:layout_centerHorizontal="true"
+          android:layout_marginBottom="103dp"
+          android:src="@drawable/multiply_madness_title" />
+
+</RelativeLayout>
