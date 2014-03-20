@@ -34,4 +34,12 @@
           android:background="#FFFFFF"
           android:text="Button" />
 
+      <ImageView
+          android:id="@+id/imageView1"
+          android:layout_width="240dp"
+          android:layout_height="240dp"
+          android:layout_above="@+id/button2"
+          android:layout_centerHorizontal="true"
+          android:src="@drawable/multiply_madness_title" />
+
 </RelativeLayout>
