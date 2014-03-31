@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
-
-    <color name="green">#00FF00</color><string name="app_name">UMM-App</string>
+<resources><string name="app_name">UMM-App</string>
     <string name="action_settings">Settings</string>
     <string name="login">Login</string>
     <string name="create_account">Create Account</string>
 	<string name="about_us">About Us</string>
+	<string name="title">Multiply Madness</string>
+	
 </resources>
