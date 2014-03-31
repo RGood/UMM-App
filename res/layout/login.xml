@@ -35,7 +35,7 @@
           android:layout_alignParentLeft="true"
           android:layout_marginBottom="84dp"
           android:background="@color/green"
-          android:text="Login" />
+          android:text="@string/login" />
 
       <Button
           android:id="@+id/button1"
@@ -45,6 +45,6 @@
           android:layout_alignBottom="@+id/button2"
           android:layout_alignParentRight="true"
           android:background="@color/green"
-          android:text="Create Account" />
+          android:text="@string/create_account" />
 
 </RelativeLayout>
