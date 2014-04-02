@@ -41,7 +41,7 @@
         android:layout_below="@+id/textView3"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="41dp"
-        android:text="Easy Mode"
+        android:text="Medium Mode"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <TextView
@@ -50,8 +50,19 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView1"
         android:layout_centerHorizontal="true"
-        android:text="Tables 1 to 6"
+        android:text="Tables 7 to 12"
         android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/button4"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button3"
+        android:layout_alignBottom="@+id/button3"
+        android:layout_toLeftOf="@+id/button1"
+        android:background="@color/green"
+        android:text="Prev" />
 
     <Button
         android:id="@+id/button3"
