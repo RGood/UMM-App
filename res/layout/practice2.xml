@@ -4,26 +4,6 @@
     android:layout_height="match_parent"
     android:background="@color/background" >
 
-    <Button
-        android:id="@+id/button2"
-        style="?android:attr/buttonStyleSmall"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:background="@color/green"
-        android:text="Back" />
-
-    <Button
-        android:id="@+id/button1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/button2"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="19dp"
-        android:background="@color/green"
-        android:text="Start" />
-
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
@@ -58,21 +38,41 @@
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/button3"
-        android:layout_alignBottom="@+id/button3"
-        android:layout_toLeftOf="@+id/button1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
         android:background="@color/green"
         android:text="Prev" />
+
+    <Button
+        android:id="@+id/button2"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="77dp"
+        android:layout_toLeftOf="@+id/button1"
+        android:background="@color/green"
+        android:text="Back" />
 
     <Button
         android:id="@+id/button3"
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView2"
-        android:layout_marginTop="57dp"
+        android:layout_alignBaseline="@+id/button2"
+        android:layout_alignBottom="@+id/button2"
         android:layout_toRightOf="@+id/button1"
         android:background="@color/green"
         android:text="Next" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="49dp"
+        android:background="@color/green"
+        android:text="Start" />
 
 </RelativeLayout>
