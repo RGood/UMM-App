@@ -19,7 +19,7 @@
             android:textSize="20sp" />
         
         <Button 
-            android:id="@+id/challenge_back"
+            android:id="@+id/leader_menu_back"
             android:layout_width="40dp"
             android:layout_height="40dp" 
             android:background="@color/red" />            

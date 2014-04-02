@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightblue"
+    android:orientation="vertical" >
+    
+	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="30dp" >
+        
+        <TextView 
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/leaderboard_page_title" 
+            android:textSize="20sp" />
+        
+        <Button 
+            android:id="@+id/leader_back"
+            android:layout_width="40dp"
+            android:layout_height="40dp" 
+            android:background="@color/red" />
+    </LinearLayout>
+
+	<TextView
+	    android:layout_width="280dp"
+	    android:layout_height="293dp"
+	    android:background="@color/yellow"
+	    android:layout_marginLeft="20dp"
+	    android:text="@string/leaders_placeholder"
+	    android:layout_marginBottom="20dp" />
+	
+	<RelativeLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content" >
+        
+	    <Button 
+	        android:id="@+id/top"
+	        android:layout_width="20dp"
+	        android:layout_height="40dp"
+	        android:background="@color/green"
+	        android:layout_alignParentLeft="true" 
+	        android:layout_toLeftOf="@+id/you"
+	        android:layout_marginLeft="60dp"
+	        android:text="@string/top_button" />
+	    	    	    
+	    <Button 
+	        android:id="@id/you"
+	        android:layout_width="60dp"
+	        android:layout_height="40dp"
+	        android:background="@color/green"
+	        android:layout_alignParentRight="true"
+	        android:layout_marginLeft="70dp" 
+	        android:layout_marginRight="70dp"
+	        android:text="@string/you_button" />	        
+	</RelativeLayout>
+</LinearLayout>

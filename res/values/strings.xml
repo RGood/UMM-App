@@ -14,6 +14,10 @@
     <string name="challenge_description">Please select a difficulty</string>
     <string name="leaderboard_title">Leaderboards!</string>
     <string name="leaderboard_description">Select your desired leaderboard</string>
+    <string name="leaderboard_page_title">nth Grade Leaderboard!</string>
+    <string name="leaders_placeholder">1. You (others WOULD be here)</string>
+    <string name="top_button">Top</string>
+    <string name="you_button">Your Rank</string>
     
     <string name="grade1">1st Grade</string>
     <string name="grade2">2nd Grade</string>
