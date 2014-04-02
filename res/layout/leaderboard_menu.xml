@@ -1,0 +1,106 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightblue"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        
+        <TextView 
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/leaderboard_title" 
+            android:textSize="20sp" />
+        
+        <Button 
+            android:id="@+id/challenge_back"
+            android:layout_width="40dp"
+            android:layout_height="40dp" 
+            android:background="@color/red" />            
+            
+    </LinearLayout>
+    
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/leaderboard_description"
+        android:layout_marginBottom="20dp" />
+    
+    <Button 
+        android:id="@+id/diff1"
+        android:layout_width="150dp" 
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/grade1"
+        android:background="@color/blblue"
+        android:layout_marginBottom="20dp" />
+    
+    <Button 
+        android:id="@+id/diff2"
+        android:layout_width="150dp" 
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/grade2"
+        android:background="@color/blue"
+        android:layout_marginBottom="20dp" />
+
+    <Button 
+        android:id="@+id/diff3"
+        android:layout_width="150dp" 
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/grade3"
+        android:background="@color/aqua" 
+        android:layout_marginBottom="20dp" />
+    
+    <Button 
+        android:id="@+id/diff4"
+        android:layout_width="150dp" 
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/grade4"
+        android:background="@color/green"
+        android:layout_marginBottom="20dp"/>
+    
+    <Button 
+        android:id="@+id/diff5"
+        android:layout_width="150dp" 
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/grade5"
+        android:background="@color/yellowgreen"
+        android:layout_marginBottom="20dp" />
+    
+    <Button 
+        android:id="@+id/diff6"
+        android:layout_width="150dp" 
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/grade6"
+        android:background="@color/yellow"
+        android:layout_marginBottom="20dp" />
+    
+    <Button 
+        android:id="@+id/diff7"
+        android:layout_width="150dp" 
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/grade7"
+        android:background="@color/orange"
+        android:layout_marginBottom="20dp" />
+    
+    <Button 
+        android:id="@+id/diff8"
+        android:layout_width="150dp" 
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/grade8"
+        android:background="@color/red" />
+</LinearLayout>
